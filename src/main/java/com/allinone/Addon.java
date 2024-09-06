@@ -78,6 +78,7 @@ public class Addon extends MeteorAddon {
         Modules.get().add(new BorderNoclipModule());
         Modules.get().add(new WordFilterModule());
         Modules.get().add(new EncryptChatModule());
+        Modules.get().add(new Magnet());
 
         // Require UI TPUtils
         if (UiUtils.uiUtilsClass != null) {
